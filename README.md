@@ -1,10 +1,8 @@
-# Extra button
+# Extra button add
 
+This SurveyCTO plug-in is based on [extra-button plug-in](https://github.com/surveycto/extra-buttons)
 ![Category buttons](extras/readme-images/extra-buttons.png)
 
-|<img src="extras/readme-images/warning-message.png" width="100px">|
-|:---:|
-|Warning|
 
 ## Description
 

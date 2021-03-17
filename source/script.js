@@ -73,13 +73,8 @@ for (var b = 0; b < numButtons; b++) {
       var clickedLabel = button.innerHTML
       var clickedValue = button.value
       var currentInput = input.value
-      if ((currentInput === '') || (currentInput == null) || (altValues.indexOf(currentInput) !== -1)) {
-        setMetaData(clickedLabel)
-        setAnswer(clickedValue)
-        goToNextField()
-      } else {
-        dispWarning(clickedLabel, clickedValue)
-      }
+      input.value = currentInput + "" + clickedValue
+      setFocus()
     })
   }
 }
@@ -193,16 +188,3 @@ function handleRequiredMessage (message) {
   handleConstraintMessage(message)
 }
 
-function dispWarning (clickedLabel, clickedValue) { // Displays the warning when tapping a button when there is already content in the text box
-  warningContainer.style.display = ''
-
-  document.querySelector('#yes').addEventListener('click', function () {
-    setMetaData(clickedLabel)
-    setAnswer(clickedValue)
-    goToNextField()
-  })
-
-  document.querySelector('#no').addEventListener('click', function () {
-    warningContainer.style.display = 'none'
-  })
-}
