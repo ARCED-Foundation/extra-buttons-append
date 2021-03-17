@@ -33,7 +33,7 @@ You can also retrieve the label of the button selected using the SurveyCTO plug-
 
 ### Getting started
 
-1. Download the [sample form](extras/readme-images/sample-form) from this repo and upload it to your SurveyCTO server.
+1. Download the [sample form](https://github.com/ARCED-Foundation/extra-buttons-append/raw/master/extras/sample-form/Extra%20buttons%20append.xlsx) from this repo and upload it to your SurveyCTO server.
 1. Download the [extrabuttons.fieldplugin.zip](https://github.com/ARCED-Foundation/extra-buttons-append/raw/master/extrabuttons-append.fieldplugin.zip) file from this repo, and attach it to the sample form on your SurveyCTO server.
 1. Adjust the parameter if you would like to use a different unit (see below).
 
