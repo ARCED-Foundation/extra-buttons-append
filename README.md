@@ -68,7 +68,7 @@ Be sure to update your *constraint* so it accepts the button values as values.
 ## More resources
 
 * **Sample form**  
-You can find a form definition in this repo here: [extras/readme-images/sample-form](extras/sample-form/sample-form).
+You can find a form definition in this repo here: [extras/sample-form/sample-form](extras/sample-form/Extra buttons append.xlsx).
 
 * **Developer documentation**  
 More instructions for developing and using field plug-ins can be found here: [https://github.com/surveycto/Field-plug-in-resources](https://github.com/surveycto/Field-plug-in-resources)
