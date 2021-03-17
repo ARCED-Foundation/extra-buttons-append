@@ -14,7 +14,7 @@ You can specify exactly what each button says, and what its value should be (for
 
 This field plug-in also inherits functionality from the [baseline-text](https://github.com/surveycto/baseline-text), [baseline-integer](https://github.com/surveycto/baseline-integer), and [baseline-decimal](https://github.com/surveycto/baseline-decimal) field plug-ins.
 
-[![Download now](extras/readme-images/download-button.png)](https://github.com/ARCED-Foundation/extra-buttons-append/master/extrabuttons-append.fieldplugin.zip)
+[![Download now](extras/readme-images/download-button.png)](https://github.com/ARCED-Foundation/extra-buttons-append/blob/master/extrabuttons-append.fieldplugin.zip)
 
 ### Features
 
