@@ -1,6 +1,7 @@
-# Extra button add
+# Extra button append
 
 This SurveyCTO plug-in is based on [extra-button plug-in](https://github.com/surveycto/extra-buttons)
+
 ![Category buttons](extras/readme-images/extra-buttons.png)
 
 
