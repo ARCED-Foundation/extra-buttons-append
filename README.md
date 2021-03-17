@@ -34,7 +34,7 @@ You can also retrieve the label of the button selected using the SurveyCTO plug-
 ### Getting started
 
 1. Download the [sample form](extras/readme-images/sample-form) from this repo and upload it to your SurveyCTO server.
-1. Download the [extrabuttons.fieldplugin.zip](https://github.com/surveycto/extra-buttons/raw/master/extrabuttons.fieldplugin.zip) file from this repo, and attach it to the sample form on your SurveyCTO server.
+1. Download the [extrabuttons.fieldplugin.zip](https://github.com/ARCED-Foundation/extra-buttons-append/raw/master/extrabuttons-append.fieldplugin.zip) file from this repo, and attach it to the sample form on your SurveyCTO server.
 1. Adjust the parameter if you would like to use a different unit (see below).
 
 ### Parameters
@@ -47,19 +47,6 @@ You can add as many or as few buttons as you'd like.
 
 Be sure to update your *constraint* so it accepts the button values as values.
 
-You can also customize the error message that appears when an enumerator selects a button when the field already has a value.
-
-`warning`: What will be displayed instead of the default warning message.<br>
-`yes`: What will be displayed instead of "Yes" in the confirmation.<br>
-`no`: What will be displayed instead of "No" in the confirmation.
-
-    custom-extrabuttons(warning='Attention: ce champ a déjà une valeur. Etes-vous sûr de vouloir le remplacer?',
-    yes='Oui',
-    no='Non',
-    button1="I don't know",
-    value1=-99,
-    button2='Refused',
-    value2=-88)
 
 ### Default SurveyCTO feature support
 
